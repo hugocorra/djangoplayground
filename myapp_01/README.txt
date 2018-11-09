@@ -1,0 +1,1 @@
+PROPOSTA é verificar como o model A, pode possuir diversas instancias do model B atrelado a ele.
