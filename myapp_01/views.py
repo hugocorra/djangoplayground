@@ -32,6 +32,7 @@ class AUpdateView(UpdateWithInlinesView):
     model = models.A
     #form_class = OrderForm
     inlines = [BInline, CInline]
+    fields = '__all__'
 
     def get_success_url(self):
         return self.object.get_absolute_url()
